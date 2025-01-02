@@ -5,6 +5,509 @@
 	(uuid "0bd9e970-d5a5-422c-a3ec-71316c30eb8e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CT-6EP103:CT-6EP103"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 10.795 -3.175 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CT-6EP103"
+				(at 10.795 -6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "POT_CT-6EP103_NDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CT-6EP103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CT-6EP103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "POT_CT-6EP103_NDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CT-6EP103_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.27) (xy 8.255 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -1.27) (xy 9.525 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 1.27) (xy 10.795 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 3.81) (xy 10.16 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 3.81) (xy 10.795 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -1.27) (xy 12.065 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 3.81) (xy 10.16 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 1.27) (xy 13.335 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -1.27) (xy 13.97 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CT-6EP103_1_2"
+				(polyline
+					(pts
+						(xy -3.81 -10.795) (xy -3.81 -9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.795) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -9.525) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -13.335) (xy 1.27 -12.065)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.795) (xy 1.27 -9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.255) (xy 1.27 -6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 0 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -13.97) (xy -1.27 -13.335)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.065) (xy -1.27 -10.795)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -9.525) (xy -1.27 -8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.985) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -115,6 +618,166 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1243,6 +1906,146 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:LM317_TO-220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM317_TO-220"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM317_TO-220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM317_TO-220_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "diodes inc bridge retifier:MB10S-13"
 			(pin_names
 				(offset 0.254)
@@ -1583,10 +2386,22 @@
 		(uuid "21530048-ff26-41ed-9133-8cfa2fa29ec9")
 	)
 	(junction
+		(at 181.61 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22134952-4eea-41c9-9796-6659cf437410")
+	)
+	(junction
 		(at 160.02 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26b397ae-d869-4255-bc7d-50a070974916")
+	)
+	(junction
+		(at 215.9 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311efc0b-6f46-4658-9110-d768c497b378")
 	)
 	(junction
 		(at 91.44 55.88)
@@ -1601,16 +2416,22 @@
 		(uuid "99d2eca4-70f9-4887-86e0-d3c0a4ad20f8")
 	)
 	(junction
+		(at 226.06 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fefc9a6-4d8d-48e6-82b3-c82b27562b61")
+	)
+	(junction
+		(at 181.61 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4afd4e4-65bd-4fdc-a0c8-64bd89b8b21e")
+	)
+	(junction
 		(at 35.56 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abb2d555-c066-49ed-8026-1a1dd459f499")
-	)
-	(junction
-		(at 181.61 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afd5bbc2-1bc5-4f69-b314-55315c762942")
 	)
 	(junction
 		(at 151.13 44.45)
@@ -1619,16 +2440,42 @@
 		(uuid "b4e6c20e-e7fa-433d-ab2a-e32aedaf6cb0")
 	)
 	(junction
-		(at 181.61 81.28)
+		(at 196.85 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e8731081-9377-4c26-940c-b6d93e7c1aca")
+		(uuid "ddc00cea-731b-456a-a156-aa1fb2fc9d0a")
+	)
+	(junction
+		(at 204.47 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df0f25d1-566e-4b90-a36b-3cf50a97a521")
+	)
+	(junction
+		(at 227.33 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4535d64-112f-4b13-ae0a-fc7e774a947f")
 	)
 	(junction
 		(at 160.02 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec15760e-e6c9-43fd-9e86-e22bd8f9435e")
+	)
+	(no_connect
+		(at 204.47 93.98)
+		(uuid "215cd68f-d78e-4ad8-84a7-157f1e2ca0e5")
+	)
+	(wire
+		(pts
+			(xy 204.47 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01683f62-4afc-4627-b850-8c1e1a621258")
 	)
 	(wire
 		(pts
@@ -1682,6 +2529,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 95.25) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a4e4e4-4f38-45b7-832f-a652b3fe13cf")
+	)
+	(wire
+		(pts
 			(xy 181.61 78.74) (xy 181.61 81.28)
 		)
 		(stroke
@@ -1732,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 91.44) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40806ec2-b30e-400d-82dd-cb17b167de3f")
+	)
+	(wire
+		(pts
 			(xy 45.72 60.96) (xy 45.72 55.88)
 		)
 		(stroke
@@ -1739,16 +2606,6 @@
 			(type default)
 		)
 		(uuid "40e9b3e2-2dc8-41ea-ab9d-88b630385c41")
-	)
-	(wire
-		(pts
-			(xy 181.61 81.28) (xy 196.85 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "449978a8-1527-4ad6-96b6-dbf54e23faee")
 	)
 	(wire
 		(pts
@@ -1782,6 +2639,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 93.98) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4ba09-4921-4aad-a666-53b1e323d8bb")
+	)
+	(wire
+		(pts
 			(xy 160.02 71.12) (xy 160.02 81.28)
 		)
 		(stroke
@@ -1789,6 +2656,16 @@
 			(type default)
 		)
 		(uuid "5f13bfc3-7ecd-474b-8ce5-d0571070a493")
+	)
+	(wire
+		(pts
+			(xy 181.61 58.42) (xy 196.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61560324-9751-474d-a2c5-7e4859880545")
 	)
 	(wire
 		(pts
@@ -1862,13 +2739,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 68.58) (xy 196.85 81.28)
+			(xy 196.85 88.9) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b1b82a7-8503-4d97-8594-fc1d31a79ab9")
+		(uuid "90b9ca80-98d0-4f4f-8427-f8316d742e34")
+	)
+	(wire
+		(pts
+			(xy 227.33 58.42) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f56114-31d4-4202-ba6f-f6f0d25be08c")
 	)
 	(wire
 		(pts
@@ -1902,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 58.42) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e36e80d-6f77-4435-b5a6-50adb32a0c15")
+	)
+	(wire
+		(pts
 			(xy 148.59 58.42) (xy 151.13 58.42)
 		)
 		(stroke
@@ -1909,6 +2806,16 @@
 			(type default)
 		)
 		(uuid "a73510b3-2262-49f9-a853-02e8f2d97680")
+	)
+	(wire
+		(pts
+			(xy 181.61 95.25) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a960866d-78f6-4aa1-8393-6bb2d39b3a06")
 	)
 	(wire
 		(pts
@@ -1922,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 66.04) (xy 196.85 58.42)
+			(xy 240.03 66.04) (xy 240.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1942,13 +2849,33 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 68.58) (xy 196.85 68.58)
+			(xy 251.46 68.58) (xy 240.03 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "beaf7d4f-45bc-4f83-9a87-945b752a304e")
+	)
+	(wire
+		(pts
+			(xy 240.03 68.58) (xy 240.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c2f08c-83cb-441b-9b18-5b93a3b49dc3")
+	)
+	(wire
+		(pts
+			(xy 195.58 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98c9b1d-0a1a-49e5-a1c0-8ce49700ed79")
 	)
 	(wire
 		(pts
@@ -1962,6 +2889,36 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 93.98) (xy 226.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0777cf5-d97f-44a4-a1d5-de19e107dd4c")
+	)
+	(wire
+		(pts
+			(xy 212.09 58.42) (xy 215.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62570a2-f8d2-4f81-bb3f-594dda129486")
+	)
+	(wire
+		(pts
+			(xy 207.01 93.98) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf6026e-a17c-4839-9a56-4273ab6080b1")
+	)
+	(wire
+		(pts
 			(xy 83.82 68.58) (xy 95.25 68.58)
 		)
 		(stroke
@@ -1972,13 +2929,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 58.42) (xy 196.85 58.42)
+			(xy 181.61 95.25) (xy 181.61 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e409d229-63fe-4333-996d-05aaf0028ede")
+		(uuid "e33141b1-4ff1-43be-a011-6a5bd575bc00")
+	)
+	(wire
+		(pts
+			(xy 196.85 83.82) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4c30b0-86b7-4d98-8e42-1ad3121984c3")
 	)
 	(wire
 		(pts
@@ -1992,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 196.85 66.04)
+			(xy 251.46 66.04) (xy 240.03 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2012,7 +2979,7 @@
 	)
 	(text "Ripple Turned out to be only about\n0.5V"
 		(exclude_from_sim no)
-		(at 156.718 104.648 0)
+		(at 147.574 122.174 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2022,7 +2989,7 @@
 	)
 	(text "Rb=4s/1000uF\n  = 4k\ndo 4.7k\nto have 2mA LED current will go\n9V-1.7V= 7.3V\nV=IR -> R=V/I= 7.3V/2mA = 3.6k"
 		(exclude_from_sim no)
-		(at 184.912 90.424 0)
+		(at 189.992 112.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2052,7 +3019,7 @@
 	)
 	(text "delta_t = 1/(2*60Hz) = 8ms"
 		(exclude_from_sim no)
-		(at 160.782 89.408 0)
+		(at 139.7 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,16 +3077,6 @@
 		)
 		(uuid "95660d71-1d51-4853-9f27-414ecfe5834d")
 	)
-	(text "test port here"
-		(exclude_from_sim no)
-		(at 90.932 60.452 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ab7d6f09-e76a-4802-907e-242c56565b39")
-	)
 	(text "This puts out much more when unloaded."
 		(exclude_from_sim no)
 		(at 76.708 44.196 0)
@@ -2132,7 +3089,7 @@
 	)
 	(text "C=I(delta_t/Vr)\n =(0.1A)(0.008s/1V)\n = 800uF\n\nuse a 1000uF "
 		(exclude_from_sim no)
-		(at 154.94 96.52 0)
+		(at 140.97 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,15 +3107,156 @@
 		)
 		(uuid "f2fb1287-cc87-440c-8e6a-b3547839abdd")
 	)
-	(text "test port here"
+	(symbol
+		(lib_id "Regulator_Linear:LM317_TO-220")
+		(at 204.47 58.42 0)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 167.894 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "291ae13e-6db2-49bf-a258-7e38190d6a4a")
+		(property "Reference" "U2"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
-		(uuid "fd2aa38a-f8f6-48c7-b297-df88040833b7")
+		(property "Value" "LM317_TO-220"
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84a3feb4-1a2a-44ec-a85e-774b8c2447e6")
+		)
+		(pin "1"
+			(uuid "5bc224d5-de21-40a9-9a98-204a664eca28")
+		)
+		(pin "3"
+			(uuid "938bf030-e1ea-4afe-baa6-2cf39c0e9809")
+		)
+		(instances
+			(project ""
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cc15230-2c04-468b-949c-7aceb994bdbf")
+		(property "Reference" "R4"
+			(at 207.01 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 207.01 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 202.692 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT2K20/1741321"
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg #" "CF14JT2K20"
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "246602ee-c946-49d3-a611-91e12a301942")
+		)
+		(pin "1"
+			(uuid "a26997aa-ac36-40a3-8ef0-9fcaf557f17d")
+		)
+		(instances
+			(project "power_supply"
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2316,6 +3414,90 @@
 		)
 	)
 	(symbol
+		(lib_id "CT-6EP103:CT-6EP103")
+		(at 204.47 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56280b29-6ef8-482a-ab1a-ec82d9845fc9")
+		(property "Reference" "R5"
+			(at 207.01 82.5499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CT-6EP103"
+			(at 207.01 85.0899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kody_custom:POT_CT-6EP103_NDC"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nidec-components-corporation/CT-6EP103/738304"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg #" "CT-6EP103"
+			(at 204.47 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "511320a6-0f80-4467-b1f9-3aee01a23564")
+		)
+		(pin "2"
+			(uuid "7b0aac9a-99ce-4ef8-b9b5-11ac1a03f585")
+		)
+		(pin "1"
+			(uuid "9756704c-96af-4452-ac6d-4b7fded07e6e")
+		)
+		(instances
+			(project ""
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 160.02 67.31 0)
 		(unit 1)
@@ -2389,6 +3571,73 @@
 			(project ""
 				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d94118-5ce5-4631-8440-583985a78e86")
+		(property "Reference" "J9"
+			(at 191.135 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e04ced9-440e-4d44-8504-0ef1840cec26")
+		)
+		(pin "1"
+			(uuid "74a0ddaa-77f7-4cd5-accf-6e68a5a2691f")
+		)
+		(instances
+			(project ""
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2633,6 +3882,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 227.33 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf4059a0-100a-440f-b5ef-a306bfabba53")
+		(property "Reference" "J8"
+			(at 228.6 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 228.6 55.2449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samtec-inc/TS-103-T-A/1105491"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3 Position Header Connector Post Tin"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TS-103-T-A"
+			(at 227.33 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ff219bf-1e9f-4d8e-973d-e49a523fd589")
+		)
+		(instances
+			(project "power_supply"
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 181.61 74.93 0)
 		(unit 1)
@@ -2706,6 +4031,85 @@
 			(project ""
 				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba142dd-cc08-47d7-9748-02165d1ed094")
+		(property "Reference" "R2"
+			(at 218.44 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 218.44 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 214.122 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNF14FTD2K00/1682155"
+			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg #" "RNF14FTD2K00"
+			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ddcad39-d6fe-4d97-843a-650483ced72b")
+		)
+		(pin "1"
+			(uuid "5c9b03f2-136a-498a-86b7-2b9c0aaafdc7")
+		)
+		(instances
+			(project ""
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2799,7 +4203,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 213.36 66.04 0)
+		(at 256.54 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2808,7 +4212,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8213b18-ec2f-401e-bb05-b3c854398a42")
 		(property "Reference" "J1"
-			(at 215.9 66.0399 0)
+			(at 259.08 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +4221,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 215.9 68.5799 0)
+			(at 259.08 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +4230,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
-			(at 213.36 66.04 0)
+			(at 256.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +4239,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/on-shore-technology-inc/OSTTE020104/2351816"
-			(at 213.36 66.04 0)
+			(at 256.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +4248,7 @@
 			)
 		)
 		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.138\" (3.50mm) Through Hole"
-			(at 213.36 66.04 0)
+			(at 256.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +4257,7 @@
 			)
 		)
 		(property "Part #" "OSTTE020104"
-			(at 213.36 66.04 0)
+			(at 256.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,6 +4358,82 @@
 			(project ""
 				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
 					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 226.06 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5b1a255-509e-4d58-8092-785afef0c51b")
+		(property "Reference" "J3"
+			(at 227.33 97.1549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 227.33 99.6949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 226.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samtec-inc/TS-103-T-A/1105491"
+			(at 226.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3 Position Header Connector Post Tin"
+			(at 226.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TS-103-T-A"
+			(at 226.06 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30466219-2265-444e-9a36-ebc5d3848629")
+		)
+		(instances
+			(project "power_supply"
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "J3")
 					(unit 1)
 				)
 			)
