@@ -12,23 +12,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 10.795 -3.175 0)
+			(property "Reference" "R5"
+				(at 11.4301 -2.54 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "CT-6EP103"
-				(at 10.795 -6.35 0)
+				(at 8.8901 -2.54 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "POT_CT-6EP103_NDC"
+			(property "Footprint" "kody_custom:POT_CT-6EP103_NDC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "CT-6EP103"
+			(property "Datasheet" "https://www.digikey.ca/en/products/detail/nidec-components-corporation/CT-6EP103/738304"
 				(at 0 0 0)
 				(effects
 					(font
@@ -50,6 +52,15 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg #" "CT-6EP103"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -240,7 +251,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "1"
@@ -258,7 +269,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 7.62 270)
 					(length 2.54)
 					(name "2"
@@ -276,7 +287,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 20.32 0 180)
 					(length 2.54)
 					(name "3"
@@ -2053,7 +2064,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U1"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -2069,8 +2080,8 @@
 					)
 				)
 			)
-			(property "Footprint" "TO-269AA_3P8X4P75_DIO"
-				(at 0 0 0)
+			(property "Footprint" "mb10s_rectifier:TO-269AA_3P8X4P75_DIO-L"
+				(at 6.604 -12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2079,8 +2090,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "MB10S-13"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/MB10S.pdf"
+				(at 4.826 -9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2089,7 +2100,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "BRIDGE RECT 1PHASE 1KV 800MA MBS"
+				(at 5.08 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part #" "MB10S-13"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2173,7 +2193,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 0 0 0)
 					(length 7.62)
 					(name "1"
@@ -2191,7 +2211,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "2"
@@ -2209,7 +2229,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 40.64 -2.54 180)
 					(length 7.62)
 					(name "3"
@@ -2227,7 +2247,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "4"
@@ -2243,6 +2263,102 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2410,6 +2526,12 @@
 		(uuid "4f242b85-97f1-4fdd-957d-b65ea1e91bb5")
 	)
 	(junction
+		(at 41.91 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ff0e864-2623-4b1a-b76b-11499cd33d7f")
+	)
+	(junction
 		(at 152.4 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2489,6 +2611,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 58.42) (xy 196.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ef780a-5d4b-46ab-b503-3c6111859596")
+	)
+	(wire
+		(pts
 			(xy 107.95 60.96) (xy 99.06 60.96)
 		)
 		(stroke
@@ -2519,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 60.96) (xy 45.72 60.96)
+			(xy 35.56 60.96) (xy 41.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2659,13 +2791,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 58.42) (xy 196.85 58.42)
+			(xy 41.91 60.96) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61560324-9751-474d-a2c5-7e4859880545")
+		(uuid "5fc129c6-d233-4f68-b5e7-8e38cf6e37c1")
 	)
 	(wire
 		(pts
@@ -3498,6 +3630,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4cbdad-bf00-4164-9141-334239a09618")
+		(property "Reference" "J9"
+			(at 191.135 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 191.135 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG #" "M20-9990246"
+			(at 190.5 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2337b2-f445-4787-8421-f99467110ce8")
+		)
+		(pin "2"
+			(uuid "40b90bb6-faef-4bbb-8c05-d549bf24c919")
+		)
+		(instances
+			(project "power_supply"
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 160.02 67.31 0)
 		(unit 1)
@@ -3571,73 +3780,6 @@
 			(project ""
 				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 190.5 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77d94118-5ce5-4631-8440-583985a78e86")
-		(property "Reference" "J9"
-			(at 191.135 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 189.23 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 190.5 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e04ced9-440e-4d44-8504-0ef1840cec26")
-		)
-		(pin "1"
-			(uuid "74a0ddaa-77f7-4cd5-accf-6e68a5a2691f")
-		)
-		(instances
-			(project ""
-				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3965,7 @@
 			)
 		)
 		(property "Footprint" "mb10s_rectifier:TO-269AA_3P8X4P75_DIO-L"
-			(at 107.95 58.42 0)
+			(at 114.554 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3975,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/MB10S.pdf"
-			(at 107.95 58.42 0)
+			(at 112.776 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3985,7 @@
 			)
 		)
 		(property "Description" "BRIDGE RECT 1PHASE 1KV 800MA MBS"
-			(at 107.95 58.42 0)
+			(at 113.03 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,6 +4094,72 @@
 			(project "power_supply"
 				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c890446e-f165-4d6b-96e7-7838cdfa4f74")
+		(property "Reference" "#FLG02"
+			(at 41.91 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a93613d-7d03-41d0-b85f-b182767ec628")
+		)
+		(instances
+			(project "power_supply"
+				(path "/0bd9e970-d5a5-422c-a3ec-71316c30eb8e"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
