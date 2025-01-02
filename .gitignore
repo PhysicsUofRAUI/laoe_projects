@@ -29,5 +29,5 @@ fp-info-cache
 *.csv
 
 # Gerbers
-gerber/
+*gerber/
 *.zip
