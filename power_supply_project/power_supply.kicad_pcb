@@ -5417,7 +5417,7 @@
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 0)
+			(at -2.89 -0.01 0)
 			(layer "F.SilkS")
 			(uuid "63cab150-561d-425c-b509-05d566aa4c2d")
 			(effects
@@ -8987,7 +8987,7 @@
 		(uuid "efbd4275-24bc-4ae5-83bf-a629bd8c27fb")
 	)
 	(gr_text "Power Supply Project Revision 1\nDesigned by Kody Rogers"
-		(at 169.722502 54.853373 0)
+		(at 169.175 54.575 0)
 		(layer "F.SilkS")
 		(uuid "1bc811ab-0e11-4bb2-9514-87c7c9b479c4")
 		(effects
@@ -9107,7 +9107,7 @@
 		)
 	)
 	(gr_text "Positive DC"
-		(at 151.62 61.35 0)
+		(at 150.95 62.475 0)
 		(layer "F.SilkS")
 		(uuid "f6c1130f-542b-487b-b713-1aed9f8af7ba")
 		(effects

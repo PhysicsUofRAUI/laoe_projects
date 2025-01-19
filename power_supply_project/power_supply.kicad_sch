@@ -3223,7 +3223,7 @@
 	)
 	(text "Ripple Turned out to be only about\n0.5V"
 		(exclude_from_sim no)
-		(at 147.574 122.174 0)
+		(at 115.062 122.174 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3233,7 +3233,7 @@
 	)
 	(text "Rb=4s/1000uF\n  = 4k\ndo 4.7k\nto have 2mA LED current will go\n9V-1.7V= 7.3V\nV=IR -> R=V/I= 7.3V/2mA = 3.6k"
 		(exclude_from_sim no)
-		(at 189.992 112.776 0)
+		(at 167.894 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3253,7 +3253,7 @@
 	)
 	(text "terminal needs a min of 1.4mm"
 		(exclude_from_sim no)
-		(at 28.702 54.102 0)
+		(at 28.448 50.292 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3263,7 +3263,7 @@
 	)
 	(text "delta_t = 1/(2*60Hz) = 8ms"
 		(exclude_from_sim no)
-		(at 139.7 103.124 0)
+		(at 115.57 101.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3333,7 +3333,7 @@
 	)
 	(text "C=I(delta_t/Vr)\n =(0.1A)(0.008s/1V)\n = 800uF\n\nuse a 1000uF "
 		(exclude_from_sim no)
-		(at 140.97 111.506 0)
+		(at 116.586 112.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3463,6 +3463,15 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "LM317HVT/NOPB"
 			(at 204.47 58.42 0)
 			(effects
 				(font
