@@ -337,6 +337,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -1119,25 +1255,11 @@
 		(color 0 0 0 0)
 		(uuid "c0c7c7b0-eee2-4928-af6b-3edd84190dc3")
 	)
-	(wire
-		(pts
-			(xy 82.55 156.21) (xy 82.55 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed264cf-f7ff-4141-9831-562276b45135")
-	)
-	(wire
-		(pts
-			(xy 82.55 168.91) (xy 82.55 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c013e07-8e08-446f-a436-236a39b4db46")
+	(junction
+		(at 95.25 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8f4b8ec-6ebc-4d6f-926a-4d42e0319b65")
 	)
 	(wire
 		(pts
@@ -1161,13 +1283,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 115.57) (xy 80.01 109.22)
+			(xy 82.55 162.56) (xy 82.55 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25b34391-d4ac-4b53-b322-5ba20f4578e8")
+		(uuid "239b62d1-66a9-4afb-84ca-717da6ff2de2")
+	)
+	(wire
+		(pts
+			(xy 82.55 167.64) (xy 82.55 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27deef0b-c198-4a0b-ae5c-8c3ce29de7ec")
 	)
 	(wire
 		(pts
@@ -1201,6 +1333,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 66.04) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbae0d8-35bc-415f-9eb5-d94a9f42d137")
+	)
+	(wire
+		(pts
+			(xy 59.69 59.69) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea7d549-d7f3-49a1-9752-d8338118db16")
+	)
+	(wire
+		(pts
 			(xy 82.55 130.81) (xy 82.55 144.78)
 		)
 		(stroke
@@ -1221,27 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 148.59) (xy 90.17 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b428259-c112-4c46-8c23-5507b88688e5")
-	)
-	(wire
-		(pts
-			(xy 85.09 88.9) (xy 85.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dea2f03-6d43-4f7f-a97d-297de284157d")
-	)
-	(wire
-		(pts
-			(xy 59.69 71.12) (xy 59.69 54.61)
+			(xy 59.69 71.12) (xy 59.69 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1261,16 +1393,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 148.59) (xy 90.17 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7788f658-e6c4-41a7-8594-c94d78a11131")
-	)
-	(wire
-		(pts
 			(xy 120.65 48.26) (xy 120.65 54.61)
 		)
 		(stroke
@@ -1281,7 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 80.01 87.63)
+			(xy 80.01 87.63) (xy 80.01 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1291,13 +1413,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 104.14) (xy 85.09 115.57)
+			(xy 90.17 120.65) (xy 95.25 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d806c87-b9b5-485c-bc82-a2aef1675d64")
+		(uuid "80d3aa0d-f1b0-4344-b454-aca314deb1d7")
 	)
 	(wire
 		(pts
@@ -1321,13 +1443,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 144.78) (xy 90.17 144.78)
+			(xy 85.09 88.9) (xy 85.09 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8faa7a4f-fef6-4633-8799-9879542c9fb1")
+		(uuid "9622b2d3-2f2c-460f-8a29-b91ede9edd86")
 	)
 	(wire
 		(pts
@@ -1338,6 +1460,26 @@
 			(type default)
 		)
 		(uuid "9b9a0762-37f3-43ff-98b9-33501bd97eb6")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c07e3a-ffea-4686-98e0-96fb3a866e01")
+	)
+	(wire
+		(pts
+			(xy 82.55 152.4) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72736f2-6d11-476a-903f-93ccd9f8789e")
 	)
 	(wire
 		(pts
@@ -1361,17 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 120.65) (xy 111.76 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e442a2d0-054d-4b94-8d94-0d6e9fa54517")
-	)
-	(wire
-		(pts
-			(xy 99.06 54.61) (xy 99.06 74.93)
+			(xy 99.06 54.61) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1389,9 +1521,9 @@
 		)
 		(uuid "f8635652-92b7-4876-bf01-18a86570812b")
 	)
-	(text "1.8V"
+	(text "1.7V"
 		(exclude_from_sim no)
-		(at 89.154 142.748 0)
+		(at 91.694 148.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1408,6 +1540,28 @@
 			)
 		)
 		(uuid "2b4c0614-b609-4015-8b70-b57bffa171cd")
+	)
+	(global_label "3V"
+		(shape input)
+		(at 82.55 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d002c96-3e4f-4f5c-9b45-a46a144801b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 178.0033 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3V"
 		(shape input)
@@ -1433,16 +1587,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 90.17 104.14 180)
+		(at 104.14 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "003ab6de-ef11-4b99-a716-c6b2c8d21128")
 		(property "Reference" "J3"
-			(at 91.44 101.5999 0)
+			(at 105.41 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1604,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 91.44 104.1399 0)
+			(at 87.122 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1613,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 90.17 104.14 0)
+			(at 104.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1622,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
-			(at 90.17 104.14 0)
+			(at 104.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1631,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 90.17 104.14 0)
+			(at 104.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1640,7 @@
 			)
 		)
 		(property "MFG #" "M20-9990246"
-			(at 90.17 104.14 0)
+			(at 104.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "330k"
 			(at 101.6 99.0599 0)
 			(effects
 				(font
@@ -1591,7 +1744,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 95.25 147.32 180)
+		(at 87.63 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1600,7 +1753,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b2b9556-4b19-4be7-abf6-18f2b37e3f44")
 		(property "Reference" "J2"
-			(at 96.52 144.7799 0)
+			(at 88.9 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1762,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 96.52 147.3199 0)
+			(at 88.9 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1771,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 95.25 147.32 0)
+			(at 87.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1780,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
-			(at 95.25 147.32 0)
+			(at 87.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1789,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 95.25 147.32 0)
+			(at 87.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1798,7 @@
 			)
 		)
 		(property "MFG #" "M20-9990246"
-			(at 95.25 147.32 0)
+			(at 87.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +1823,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 152.4 0)
+		(at 82.55 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1679,7 +1832,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cc5ba9d-797f-472a-994b-4b558a80aeaa")
 		(property "Reference" "R5"
-			(at 85.09 151.1299 0)
+			(at 85.09 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1841,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 85.09 153.6699 0)
+			(at 85.09 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 80.772 152.4 90)
+			(at 80.772 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1859,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT680R/1741489"
-			(at 82.55 152.4 0)
+			(at 82.55 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1868,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 5% 1/4W AXIAL"
-			(at 82.55 152.4 0)
+			(at 82.55 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1877,7 @@
 			)
 		)
 		(property "MFG #" "CF14JT680R"
-			(at 82.55 152.4 0)
+			(at 82.55 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,17 +1967,82 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 74.93 106.68 0)
+		(lib_id "power:GND")
+		(at 95.25 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "3211b919-866f-472f-99dc-0d0c6b46013c")
+		(property "Reference" "#PWR05"
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6c341e2-a989-45cc-9f98-c1439536d38b")
+		)
+		(instances
+			(project "op_amp_version"
+				(path "/4f380b86-b2bf-481e-9e54-a1be3b724a2e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 54.61 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "418c14f2-c09e-4bb7-8dc6-655a418791de")
 		(property "Reference" "J4"
-			(at 75.565 101.6 0)
+			(at 55.245 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +2050,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 75.565 104.14 0)
+			(at 48.768 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +2058,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 74.93 106.68 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +2067,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
-			(at 74.93 106.68 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +2076,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 74.93 106.68 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +2085,7 @@
 			)
 		)
 		(property "MFG #" "M20-9990246"
-			(at 74.93 106.68 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +2127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "330k"
 			(at 62.23 99.0599 0)
 			(effects
 				(font
@@ -1964,6 +2182,85 @@
 			(project "op_amp_version"
 				(path "/4f380b86-b2bf-481e-9e54-a1be3b724a2e"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86ad0d2e-688f-48a2-b097-b113de1e520f")
+		(property "Reference" "C1"
+			(at 99.06 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 99.06 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 96.2152 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C103K5RACTU/411157"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "C0805C103K5RACTU"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d5074e4-fd1f-439c-a6d6-b399af60d534")
+		)
+		(pin "1"
+			(uuid "ba650efc-7ab5-472c-ad8a-58ab1637c456")
+		)
+		(instances
+			(project ""
+				(path "/4f380b86-b2bf-481e-9e54-a1be3b724a2e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2054,7 +2351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "33k"
 			(at 62.23 76.1999 0)
 			(effects
 				(font
@@ -2261,7 +2558,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 82.55 165.1 90)
+		(at 82.55 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2270,25 +2567,25 @@
 		(fields_autoplaced yes)
 		(uuid "af6b46ab-ade8-41e4-929c-5942b917bce3")
 		(property "Reference" "D1"
-			(at 86.36 165.4174 90)
+			(at 85.09 145.7324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 86.36 167.9574 90)
+			(at 85.09 148.2724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 82.55 165.1 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2594,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
-			(at 82.55 165.1 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2603,7 @@
 			)
 		)
 		(property "Description" "LED RED DIFFUSED T-1 3/4 T/H"
-			(at 82.55 165.1 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2612,7 @@
 			)
 		)
 		(property "MFG #" "HLMP-D150"
-			(at 82.55 165.1 90)
+			(at 82.55 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery:Battery_Panasonic_CR2032-HFN_Horizontal_CircularHoles"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 144.526 54.61 90)
 			(effects
 				(font
@@ -2633,72 +2930,6 @@
 			(project "op_amp_version"
 				(path "/4f380b86-b2bf-481e-9e54-a1be3b724a2e"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd30a536-4a78-408e-878f-bbddb95b381c")
-		(property "Reference" "#PWR05"
-			(at 82.55 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad833218-fa3f-48b9-982a-8cc135daa7b7")
-		)
-		(instances
-			(project "op_amp_version"
-				(path "/4f380b86-b2bf-481e-9e54-a1be3b724a2e"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
