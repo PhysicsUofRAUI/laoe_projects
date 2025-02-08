@@ -5,6 +5,432 @@
 	(uuid "eb0e76fa-f2dc-4532-aec1-83c7ed669823")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Memory_RAM:IS62C256AL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3613,9 +4039,359 @@
 			)
 		)
 	)
+	(junction
+		(at 163.83 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "016a9b3c-5c17-42e2-a552-bce21477e188")
+	)
+	(junction
+		(at 59.69 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bf83169-0aee-4aa0-b022-1a1066f33ec1")
+	)
+	(junction
+		(at 224.79 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1449a5c7-f450-42f6-9c15-996e24021669")
+	)
+	(junction
+		(at 187.96 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "154934d8-2e56-4c4b-95af-55904e373332")
+	)
+	(junction
+		(at 182.88 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b008ae8-a60a-4bdb-9a9d-9e901d32b5a7")
+	)
+	(junction
+		(at 186.69 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c39594-0974-49db-b2f4-ec1575cc5e23")
+	)
+	(junction
+		(at 224.79 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c5d3f65-cf44-4a33-82e0-579c3351b273")
+	)
+	(junction
+		(at 224.79 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57131126-ce4d-4185-a5eb-f7a78b7f1644")
+	)
+	(junction
+		(at 184.15 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57f5598d-b61c-4657-8fe7-a7759e4f53b4")
+	)
+	(junction
+		(at 189.23 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b84837a-6684-4fae-9360-785e30d8adfb")
+	)
+	(junction
+		(at 185.42 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770f6bcb-5147-42c3-8831-0729e93b8cb4")
+	)
+	(junction
+		(at 53.34 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79887295-af8c-49e0-a18e-faee01ac4f79")
+	)
+	(junction
+		(at 187.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8990d525-f442-44e2-9e9f-d7b07ee00930")
+	)
+	(junction
+		(at 224.79 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a425fdd4-4b54-45e3-b5c4-ecc34f42bcdb")
+	)
+	(junction
+		(at 224.79 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba862509-1e30-4f2f-bedc-098c41cd85da")
+	)
+	(junction
+		(at 191.77 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce2ad6b8-1325-4648-b536-052a5893a608")
+	)
+	(junction
+		(at 55.88 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e324d156-1fb2-4b87-87aa-217e0456ae66")
+	)
+	(junction
+		(at 224.79 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0f04893-e917-41f7-b110-e065601af35f")
+	)
+	(junction
+		(at 224.79 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe621e8b-1af5-43ca-80ad-03fcaf53157d")
+	)
+	(no_connect
+		(at 128.27 118.11)
+		(uuid "02d11228-4b24-4362-893f-f81e563ac051")
+	)
+	(no_connect
+		(at 128.27 138.43)
+		(uuid "06128459-50d2-4db4-8a40-534d719e2798")
+	)
+	(no_connect
+		(at 62.23 125.73)
+		(uuid "0b75c88f-a3b8-4a9f-887b-e78b5ad844f7")
+	)
+	(no_connect
+		(at 128.27 128.27)
+		(uuid "0dce341f-9683-433c-a75a-dba1cb2badc1")
+	)
+	(no_connect
+		(at 62.23 64.77)
+		(uuid "189bb9c8-fd68-49c3-81ab-fbb93f67b6e5")
+	)
+	(no_connect
+		(at 62.23 148.59)
+		(uuid "2539f4bb-5ae8-4ede-8eee-4c65b63e1640")
+	)
+	(no_connect
+		(at 128.27 130.81)
+		(uuid "343de697-6bdf-42c2-8167-de948fe3f651")
+	)
+	(no_connect
+		(at 128.27 140.97)
+		(uuid "35bdf328-f5f5-4169-8ecb-fee1ae6cca44")
+	)
+	(no_connect
+		(at 128.27 133.35)
+		(uuid "37231d7d-93d5-44be-b736-a7e5c10774d2")
+	)
+	(no_connect
+		(at 128.27 123.19)
+		(uuid "3ceb20a2-364b-4934-9bbc-323f36149e2d")
+	)
+	(no_connect
+		(at 62.23 130.81)
+		(uuid "3d297053-4ea0-435c-8bdf-303dddffe77d")
+	)
+	(no_connect
+		(at 128.27 107.95)
+		(uuid "3fcb90b0-1f5e-42c0-829b-45d346a81077")
+	)
+	(no_connect
+		(at 62.23 92.71)
+		(uuid "3fd39fa3-98f0-4950-be6c-5d661988c3c4")
+	)
+	(no_connect
+		(at 128.27 105.41)
+		(uuid "43c0e6d6-eb5a-41be-bc07-d590ac908039")
+	)
+	(no_connect
+		(at 62.23 44.45)
+		(uuid "43cd69bb-70a9-4fcf-a06f-acb790c1536f")
+	)
+	(no_connect
+		(at 62.23 85.09)
+		(uuid "494c783e-353e-4779-be4a-aeb683bc79c3")
+	)
+	(no_connect
+		(at 128.27 113.03)
+		(uuid "4fe9d497-a896-4fd4-8c45-f751a9894214")
+	)
+	(no_connect
+		(at 62.23 87.63)
+		(uuid "516c3016-379d-4713-b083-82bccdc8bd18")
+	)
+	(no_connect
+		(at 62.23 120.65)
+		(uuid "53028046-1bd3-42de-aa52-d0015ef6dce4")
+	)
+	(no_connect
+		(at 62.23 54.61)
+		(uuid "5bb19d1e-7ea0-4a29-88b5-61bb3e3fa6ae")
+	)
+	(no_connect
+		(at 62.23 97.79)
+		(uuid "6cd054b4-7cd3-4f86-b67c-0df84441e92f")
+	)
+	(no_connect
+		(at 128.27 115.57)
+		(uuid "6e5c63bd-ead7-421b-9e98-6c314c34250f")
+	)
+	(no_connect
+		(at 62.23 90.17)
+		(uuid "705e5b62-9607-4bc9-8b97-483ef1204e2e")
+	)
+	(no_connect
+		(at 62.23 102.87)
+		(uuid "71d97067-cd71-41a8-bb75-2aaa3bc9efea")
+	)
+	(no_connect
+		(at 62.23 67.31)
+		(uuid "728fe7a0-d302-407f-b3d7-fcb802a39d9f")
+	)
+	(no_connect
+		(at 62.23 135.89)
+		(uuid "72920128-0632-44b6-b894-6f4edf4a93dd")
+	)
+	(no_connect
+		(at 62.23 105.41)
+		(uuid "73495fa8-ff73-4cc2-91af-04eeedd96c2f")
+	)
+	(no_connect
+		(at 62.23 82.55)
+		(uuid "76af3aeb-50f3-4600-8052-5e4c6108f58c")
+	)
+	(no_connect
+		(at 62.23 46.99)
+		(uuid "7739be77-2c47-4504-8d66-aa7d0b979624")
+	)
+	(no_connect
+		(at 62.23 57.15)
+		(uuid "778579b5-0d8d-4d0e-86cd-da454cc9ad52")
+	)
+	(no_connect
+		(at 128.27 148.59)
+		(uuid "7a1d43de-0be5-4ae5-9da3-a9752bf9edd0")
+	)
+	(no_connect
+		(at 62.23 118.11)
+		(uuid "7cbbdd4c-024c-432f-bac2-0239b0e03c3c")
+	)
+	(no_connect
+		(at 62.23 39.37)
+		(uuid "8353a6f8-9bc5-44bb-af14-d784983d0c6d")
+	)
+	(no_connect
+		(at 128.27 146.05)
+		(uuid "83f121f0-92d0-451a-a49d-cb8a70904146")
+	)
+	(no_connect
+		(at 128.27 125.73)
+		(uuid "88583d12-d941-4dff-a86c-46e5b16ea628")
+	)
+	(no_connect
+		(at 62.23 133.35)
+		(uuid "9c437f96-f7e8-46e2-b7a2-62c584253069")
+	)
+	(no_connect
+		(at 128.27 143.51)
+		(uuid "9df067b9-b7aa-44a0-aa38-e2593f3f00d3")
+	)
+	(no_connect
+		(at 62.23 110.49)
+		(uuid "a3e26e28-8a6d-425e-887b-cb990020f55a")
+	)
+	(no_connect
+		(at 62.23 113.03)
+		(uuid "ac34394a-5e22-449d-8058-3a0da333d3f9")
+	)
+	(no_connect
+		(at 62.23 49.53)
+		(uuid "ae269508-3832-491a-b17b-015801516254")
+	)
+	(no_connect
+		(at 62.23 62.23)
+		(uuid "b00f2ede-b152-441a-a7d0-15d27b205af7")
+	)
+	(no_connect
+		(at 62.23 59.69)
+		(uuid "b5c474b0-84a2-4d73-8a08-786635535f66")
+	)
+	(no_connect
+		(at 62.23 107.95)
+		(uuid "b85d236e-4f20-4fe6-8631-0c34155877b9")
+	)
+	(no_connect
+		(at 62.23 52.07)
+		(uuid "c64f46c3-eeb2-4228-984c-fab1a8d6236e")
+	)
+	(no_connect
+		(at 62.23 95.25)
+		(uuid "c6634bab-af1e-4f11-848c-527ce5eecf10")
+	)
+	(no_connect
+		(at 62.23 80.01)
+		(uuid "c8165cf7-e1d2-4fbb-a1db-66c5fa6f681d")
+	)
+	(no_connect
+		(at 62.23 41.91)
+		(uuid "cc7f0f64-3785-4b26-a454-0bce43e77a40")
+	)
+	(no_connect
+		(at 62.23 72.39)
+		(uuid "cec9e769-241e-4cfc-8f74-8ff6c43fd42e")
+	)
+	(no_connect
+		(at 128.27 120.65)
+		(uuid "cfd09a9a-8915-4de6-80c3-7ae287dc56da")
+	)
+	(no_connect
+		(at 128.27 135.89)
+		(uuid "dbfad86a-113d-4307-876d-a087e3df2d0d")
+	)
+	(no_connect
+		(at 62.23 77.47)
+		(uuid "e12ed062-5033-4c2a-8cea-086b412c4b80")
+	)
+	(no_connect
+		(at 128.27 110.49)
+		(uuid "eeeec1a5-65f9-4fc2-ab4a-9d3563da8990")
+	)
+	(no_connect
+		(at 62.23 74.93)
+		(uuid "f016fbd8-de43-4a46-9f90-4f83c4e5ce8a")
+	)
+	(no_connect
+		(at 62.23 100.33)
+		(uuid "fdd844c6-61e5-4f6a-af83-f1a180e52f15")
+	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 135.89 102.87)
+			(xy 184.15 105.41) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0113b9d3-2285-47ca-986d-cca7b2a1d4ab")
+	)
+	(wire
+		(pts
+			(xy 165.1 110.49) (xy 186.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03158b52-d26a-463b-9473-e42c0499024b")
+	)
+	(wire
+		(pts
+			(xy 135.89 102.87) (xy 135.89 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3625,13 +4401,33 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 44.45) (xy 193.04 101.6)
+			(xy 224.79 39.37) (xy 224.79 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ada5e71-806c-46f1-98ec-97a140945dd4")
+		(uuid "03d5a8d0-61a2-41ec-8997-c43f339ddc42")
+	)
+	(wire
+		(pts
+			(xy 165.1 105.41) (xy 184.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a3eb3c-5032-4a4b-b91a-27117ec25d82")
+	)
+	(wire
+		(pts
+			(xy 62.23 140.97) (xy 59.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b20eb17-1e51-434b-82e1-2615000f3c75")
 	)
 	(wire
 		(pts
@@ -3642,6 +4438,26 @@
 			(type default)
 		)
 		(uuid "0bf627ae-16f5-4a11-9e6a-29219b68d6b2")
+	)
+	(wire
+		(pts
+			(xy 182.88 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc6d44a-c172-483a-a4d5-92530d4a2b31")
+	)
+	(wire
+		(pts
+			(xy 196.85 21.59) (xy 191.77 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eef0b94-d5f8-4b64-aec2-8fa547a5cbce")
 	)
 	(wire
 		(pts
@@ -3665,6 +4481,46 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c1025a-a880-45ab-a6e2-221f79186689")
+	)
+	(wire
+		(pts
+			(xy 185.42 52.07) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1746492b-9e75-4068-8f76-6b576f543d61")
+	)
+	(wire
+		(pts
+			(xy 217.17 57.15) (xy 224.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188f281f-9122-451d-8f3d-1b660280905f")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d8e46f-163b-4d18-8ced-17173f8b178f")
+	)
+	(wire
+		(pts
 			(xy 128.27 72.39) (xy 151.13 72.39)
 		)
 		(stroke
@@ -3675,13 +4531,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 104.14) (xy 135.89 104.14)
+			(xy 217.17 30.48) (xy 224.79 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c61a1d0-a547-4919-8743-ad6d7f76cacc")
+		(uuid "1c3c1110-03a7-41ed-b903-63845e67a8dd")
 	)
 	(wire
 		(pts
@@ -3695,13 +4551,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 54.61) (xy 186.69 96.52)
+			(xy 189.23 115.57) (xy 189.23 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21f4d03e-cfb6-4b62-8fb7-28dbca7735db")
+		(uuid "22eacab8-616f-4f22-8107-e1cacc38f50d")
 	)
 	(wire
 		(pts
@@ -3715,6 +4571,56 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 102.87) (xy 182.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2492dd55-1083-42ac-a697-4e20f6f4705c")
+	)
+	(wire
+		(pts
+			(xy 193.04 44.45) (xy 189.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2548ca2c-ed94-4cba-8726-34d1ae3be69f")
+	)
+	(wire
+		(pts
+			(xy 224.79 57.15) (xy 224.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26253683-930a-457f-9b0c-ddb111a5330b")
+	)
+	(wire
+		(pts
+			(xy 53.34 138.43) (xy 50.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270f818b-9ed4-402f-a05b-fedeaae360ae")
+	)
+	(wire
+		(pts
+			(xy 191.77 39.37) (xy 176.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5083ef-5072-4792-ada6-c409d0ee5da7")
+	)
+	(wire
+		(pts
 			(xy 48.26 128.27) (xy 48.26 127)
 		)
 		(stroke
@@ -3722,6 +4628,36 @@
 			(type default)
 		)
 		(uuid "2b793464-d134-42ec-b251-6be6e19ba0e1")
+	)
+	(wire
+		(pts
+			(xy 184.15 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf1be66-0f3b-4b86-8e54-c3287059a6c9")
+	)
+	(wire
+		(pts
+			(xy 204.47 85.09) (xy 209.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d63ea38-50fb-48f5-b126-2daf3ce13c8f")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de02231-b7a3-456c-a01a-1f63f174182e")
 	)
 	(wire
 		(pts
@@ -3735,7 +4671,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 138.43) (xy 50.8 138.43)
+			(xy 62.23 138.43) (xy 59.69 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3745,13 +4681,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 49.53) (xy 190.5 99.06)
+			(xy 224.79 48.26) (xy 224.79 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e646ff6-7a83-4eb6-9a72-0e9c0025500b")
+		(uuid "330ac642-c14b-4813-9fa9-b04332cd3ff2")
 	)
 	(wire
 		(pts
@@ -3765,33 +4701,33 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 52.07) (xy 189.23 97.79)
+			(xy 140.97 110.49) (xy 149.86 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33893193-6603-4de0-baf4-a808a1b28002")
+		(uuid "33acb758-f10c-42ee-99bd-f219d7b937d3")
 	)
 	(wire
 		(pts
-			(xy 191.77 46.99) (xy 191.77 100.33)
+			(xy 185.42 66.04) (xy 185.42 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3460f8ac-8ad9-485e-b38e-788e7de423f5")
+		(uuid "3d121d22-4a89-4bc4-ba2a-4228c1f57fe0")
 	)
 	(wire
 		(pts
-			(xy 176.53 49.53) (xy 190.5 49.53)
+			(xy 55.88 138.43) (xy 53.34 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b02bfe8-ef02-4450-9030-0499a2b09ff8")
+		(uuid "3e4d9311-f073-471b-8cd8-a7a9f31fdf95")
 	)
 	(wire
 		(pts
@@ -3805,13 +4741,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 44.45) (xy 193.04 44.45)
+			(xy 135.89 120.65) (xy 149.86 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "440fa5e2-7927-4b9b-8670-5efae53d66cf")
+		(uuid "4b3e5ae2-8ad0-498c-95e7-73045e9854e3")
 	)
 	(wire
 		(pts
@@ -3825,13 +4761,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 100.33) (xy 139.7 100.33)
+			(xy 190.5 41.91) (xy 187.96 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5068ede0-95d2-4bc8-93a6-3ed4816e91f8")
+		(uuid "4fe6dc51-54e4-4942-9e1e-277eea0d6184")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 144.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5344db6c-2ab2-4f2c-8356-9643a45f16c4")
 	)
 	(wire
 		(pts
@@ -3855,13 +4801,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 102.87) (xy 137.16 100.33)
+			(xy 217.17 85.09) (xy 224.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f93a4b-e8b2-4fef-886a-e24ffea14006")
+	)
+	(wire
+		(pts
+			(xy 137.16 100.33) (xy 137.16 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "55a7a142-037f-416c-b18c-189f2bc31d02")
+	)
+	(wire
+		(pts
+			(xy 184.15 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5937da6d-b9a1-4075-a0ac-812cfae2e1a8")
 	)
 	(wire
 		(pts
@@ -3875,7 +4841,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 140.97 92.71)
+			(xy 62.23 143.51) (xy 55.88 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da4c05f-3d18-41b5-aa7f-8082ba932cc7")
+	)
+	(wire
+		(pts
+			(xy 217.17 39.37) (xy 224.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc67dfb-3c90-47dd-a91c-da301d53bc72")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3885,7 +4871,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 139.7 95.25)
+			(xy 158.75 27.94) (xy 163.83 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623ed4c9-e0c6-4658-a717-332a1b442bfd")
+	)
+	(wire
+		(pts
+			(xy 196.85 30.48) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6423b0a2-cc44-4670-bb02-03bd9f6f340f")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 139.7 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3905,13 +4911,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 52.07) (xy 189.23 52.07)
+			(xy 186.69 110.49) (xy 186.69 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72abf58b-b492-4c14-9d95-7de021822ad5")
+		(uuid "6c4e5f08-abaa-4ea8-a85f-2fe72c31383e")
+	)
+	(wire
+		(pts
+			(xy 224.79 21.59) (xy 224.79 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fbd40d-9925-41ff-88d1-b435cbbdbcd9")
 	)
 	(wire
 		(pts
@@ -3922,6 +4938,16 @@
 			(type default)
 		)
 		(uuid "735dca5a-797f-4d6d-a303-03fa12b19d8f")
+	)
+	(wire
+		(pts
+			(xy 187.96 30.48) (xy 187.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a29c9b-ff02-4314-882c-784b63b234a9")
 	)
 	(wire
 		(pts
@@ -3945,23 +4971,53 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 140.97 99.06)
+			(xy 204.47 30.48) (xy 209.55 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7557986b-5517-4148-9b95-f44bfaa1b727")
+		(uuid "7541d55c-7ec3-4089-9280-a5a9f80dd5ca")
 	)
 	(wire
 		(pts
-			(xy 163.83 26.67) (xy 163.83 34.29)
+			(xy 187.96 48.26) (xy 187.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75acc6de-0516-455d-aaf7-2fce74dc30d7")
+	)
+	(wire
+		(pts
+			(xy 224.79 85.09) (xy 224.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b1d69e-c815-4f17-a58b-0019089f94fb")
+	)
+	(wire
+		(pts
+			(xy 163.83 26.67) (xy 163.83 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7770e5ba-988a-4b20-acca-b78c956e98cd")
+	)
+	(wire
+		(pts
+			(xy 204.47 57.15) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ecee49-2da1-4b45-96e1-66bf48dad18c")
 	)
 	(wire
 		(pts
@@ -3975,13 +5031,43 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 96.52) (xy 143.51 87.63)
+			(xy 143.51 87.63) (xy 143.51 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78f61c4d-f6de-423f-b481-4fc7f4ade74c")
+	)
+	(wire
+		(pts
+			(xy 217.17 66.04) (xy 224.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d7b005-4235-4d8a-b3db-0f1b142cdca0")
+	)
+	(wire
+		(pts
+			(xy 191.77 21.59) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bff368c-3af2-472a-9e0b-2d8149b3e850")
+	)
+	(wire
+		(pts
+			(xy 191.77 120.65) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee8dbac-17d8-44c9-afa6-4661f716c1f5")
 	)
 	(wire
 		(pts
@@ -4045,13 +5131,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 46.99) (xy 191.77 46.99)
+			(xy 128.27 85.09) (xy 144.78 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90eee063-9c84-4ea8-ae62-263a9e6a1d61")
+		(uuid "91af1405-25a2-4590-960d-1d62fa5f5330")
 	)
 	(wire
 		(pts
@@ -4065,13 +5151,73 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 85.09) (xy 128.27 85.09)
+			(xy 59.69 140.97) (xy 59.69 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1747560-15a2-40d4-b711-7ecf1e32c57c")
+		(uuid "93a03df8-40fa-4c9e-bf0e-1cff215baf79")
+	)
+	(wire
+		(pts
+			(xy 184.15 74.93) (xy 184.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96225a26-af3c-45ce-942b-03973e586614")
+	)
+	(wire
+		(pts
+			(xy 224.79 66.04) (xy 224.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ee8397-cc89-4e0d-8842-50192a6c0404")
+	)
+	(wire
+		(pts
+			(xy 204.47 48.26) (xy 209.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a017dd0-57c4-4c4d-ab80-a1d17d8311c4")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b357133-194c-4e4a-8713-75c79542b9c5")
+	)
+	(wire
+		(pts
+			(xy 163.83 27.94) (xy 163.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7b0095-a2f1-4bd0-903c-1cd08e9c1aa0")
+	)
+	(wire
+		(pts
+			(xy 193.04 39.37) (xy 193.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1720028-9338-41f7-8500-a6b0a261bde7")
 	)
 	(wire
 		(pts
@@ -4085,7 +5231,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 142.24 90.17)
+			(xy 204.47 66.04) (xy 209.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f81782-06e3-44a9-b1dd-a8c5137d6c5a")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4095,23 +5251,73 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 102.87) (xy 137.16 102.87)
+			(xy 182.88 85.09) (xy 196.85 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abf30fc8-1de4-4f4b-9094-f8b67513c11c")
+		(uuid "aba214fb-85a1-4372-b42d-62d5769d1c74")
 	)
 	(wire
 		(pts
-			(xy 184.15 95.25) (xy 144.78 95.25)
+			(xy 62.23 146.05) (xy 53.34 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0f7cb9f-2fff-42ee-aab5-9a0d61acba80")
+		(uuid "ac5cb84c-d725-4d1b-b381-d4995c96fc40")
+	)
+	(wire
+		(pts
+			(xy 182.88 85.09) (xy 182.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9f007f-5764-4643-827d-81218ee60d17")
+	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 191.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5ff7d1-e4ef-4a51-8911-624d183c70f5")
+	)
+	(wire
+		(pts
+			(xy 53.34 146.05) (xy 53.34 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02c7be6-c455-4a05-88a1-f7814d6f8039")
+	)
+	(wire
+		(pts
+			(xy 224.79 30.48) (xy 224.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e97142-f0d8-4637-947e-b53c9d4b274b")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 149.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ebce86-3adf-4c6a-ab18-5cc1dc85fd53")
 	)
 	(wire
 		(pts
@@ -4125,13 +5331,113 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 54.61) (xy 186.69 54.61)
+			(xy 189.23 44.45) (xy 176.53 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be9b7da4-b434-43f8-8321-37badfb04027")
+		(uuid "b5e7c457-6d51-47f2-b35a-fd584bf184ba")
+	)
+	(wire
+		(pts
+			(xy 139.7 113.03) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ed51aa-ab41-4a13-a6d5-5f92d8b53f9a")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60ec338-a56e-4efe-be00-2ee88dc3b115")
+	)
+	(wire
+		(pts
+			(xy 165.1 107.95) (xy 185.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d9caf4-0e8d-4aba-92b8-001a11b654de")
+	)
+	(wire
+		(pts
+			(xy 190.5 118.11) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86319b4-1db1-408a-ab27-25d6c6162b99")
+	)
+	(wire
+		(pts
+			(xy 59.69 138.43) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88a37c0-24a2-435a-bc44-b2a8966eec90")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b969458c-86b8-490d-b276-3cbff489b402")
+	)
+	(wire
+		(pts
+			(xy 55.88 143.51) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3f86a3-be32-484c-978a-35b4f0ca0fe2")
+	)
+	(wire
+		(pts
+			(xy 185.42 66.04) (xy 196.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb562dff-9fdf-4bf1-8863-5fdfbcca3fed")
+	)
+	(wire
+		(pts
+			(xy 217.17 48.26) (xy 224.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda00ac3-d993-467e-8880-e73d963fe7d2")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 187.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcf4fa6-dff9-46cf-a95c-aa012cdc088a")
 	)
 	(wire
 		(pts
@@ -4155,23 +5461,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 57.15) (xy 184.15 57.15)
+			(xy 186.69 57.15) (xy 196.85 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5394eb9-317e-4c8c-8361-e141bd0742a6")
+		(uuid "c6a30b20-5a97-4004-97a4-f8ab3b21b7f9")
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 144.78 85.09)
+			(xy 185.42 107.95) (xy 185.42 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7a30957-5c69-46fd-948d-66f040a14ac9")
+		(uuid "c7085138-7608-46bf-900a-7ec0a7af3d77")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79c8583-c707-4f70-acfb-330d2bd11538")
 	)
 	(wire
 		(pts
@@ -4185,6 +5501,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 74.93) (xy 224.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7cb8bc-a6c4-478a-925b-26759db634b7")
+	)
+	(wire
+		(pts
 			(xy 128.27 57.15) (xy 151.13 57.15)
 		)
 		(stroke
@@ -4192,16 +5518,6 @@
 			(type default)
 		)
 		(uuid "cb1d9d49-b0ee-49d5-a819-79029360f807")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 138.43 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1a594a-24c0-45e5-b34f-482866b0b967")
 	)
 	(wire
 		(pts
@@ -4225,26 +5541,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 57.15) (xy 184.15 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30e074b-404a-4a90-99a7-bd36418cdbdb")
-	)
-	(wire
-		(pts
-			(xy 176.53 41.91) (xy 194.31 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d484e423-ad13-4b33-ab04-217706b92715")
-	)
-	(wire
-		(pts
 			(xy 181.61 62.23) (xy 181.61 93.98)
 		)
 		(stroke
@@ -4252,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "d6fc2372-d2d7-411e-83f5-3ffe66acce55")
+	)
+	(wire
+		(pts
+			(xy 187.96 113.03) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d727c196-f020-4c60-b1b3-2a78f368a66a")
 	)
 	(wire
 		(pts
@@ -4265,13 +5571,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 39.37) (xy 195.58 104.14)
+			(xy 186.69 57.15) (xy 186.69 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dce6fc22-94d8-4d6b-8af3-9278b8b8f1dd")
+		(uuid "d9e60b96-2aa8-4b53-bcb9-4713affe6cce")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 193.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc86111b-f758-4f90-bce7-2016fc2d6d0a")
 	)
 	(wire
 		(pts
@@ -4295,13 +5611,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 143.51 96.52)
+			(xy 217.17 21.59) (xy 224.79 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e59f0a89-b659-4383-80f1-4f869f6f8a1c")
+		(uuid "e2e2afd4-977c-42f6-b733-6f72b76db693")
+	)
+	(wire
+		(pts
+			(xy 204.47 74.93) (xy 209.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ba2d9e-c235-4d78-9a16-c9d859c33cf5")
 	)
 	(wire
 		(pts
@@ -4315,13 +5641,33 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 97.79) (xy 142.24 97.79)
+			(xy 186.69 49.53) (xy 176.53 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0845e24-120f-43a5-95d9-8166c56adcc3")
+		(uuid "ec09182a-ec00-4a29-b111-1bab4d0916fb")
+	)
+	(wire
+		(pts
+			(xy 204.47 39.37) (xy 209.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc249a5-b44e-4909-8de7-a1045eb3f2a8")
+	)
+	(wire
+		(pts
+			(xy 165.1 115.57) (xy 189.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1339da7-f87a-4bf5-9a8f-016de304b3f0")
 	)
 	(wire
 		(pts
@@ -4335,33 +5681,53 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 101.6) (xy 138.43 101.6)
+			(xy 224.79 74.93) (xy 224.79 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f75a8de0-6c48-4015-9563-6097709e6b65")
+		(uuid "f57639c5-57d1-46cd-99a0-4aabcaba4d1a")
 	)
 	(wire
 		(pts
-			(xy 176.53 39.37) (xy 195.58 39.37)
+			(xy 187.96 46.99) (xy 176.53 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faa64c82-3a19-477f-aed2-1082e83e92ca")
+		(uuid "f5ec4cdd-06cf-44c6-8d87-ee918fd36278")
 	)
 	(wire
 		(pts
-			(xy 194.31 41.91) (xy 194.31 102.87)
+			(xy 204.47 21.59) (xy 209.55 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbf00c00-8bbb-4e24-a73c-78577ff64a5b")
+		(uuid "f676a4ca-b548-46d4-95b2-7e51ded17ab4")
+	)
+	(wire
+		(pts
+			(xy 138.43 115.57) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8787b36-5335-41d0-ba8a-a9550c522c72")
+	)
+	(wire
+		(pts
+			(xy 187.96 41.91) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8a4ae5-fe18-43dd-8d51-b57c62543cf7")
 	)
 	(text "Goals for this Shield.\n1. To create a demo of how to address, write, and retrieve from a parallel RAM.\n2. Add a dip switch connecting the data of the RAM to the pins of the Mega. This\nthis would be to disconnect the Mega to ensure the signal is from the RAM.\n3. Perhaps get more clever and create something closer to what they did in the\ntextbook using counters and such."
 		(exclude_from_sim no)
@@ -4372,6 +5738,454 @@
 			)
 		)
 		(uuid "3a3a3fd5-0ca2-44ea-b0b3-8a086e2b3c5b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12473404-0c93-40c7-9bc8-fe2b110ef13a")
+		(property "Reference" "C1"
+			(at 154.94 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 154.94 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 151.13 28.9052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C103K5RACTU/411157"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "C0805C103K5RACTU"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "198b41be-a5c0-4940-9ab1-f51e6831aebf")
+		)
+		(pin "1"
+			(uuid "71777c25-1075-4b6e-9847-0b7ca530b005")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "180ce8d9-8003-4b0f-83e3-e99acd7e4240")
+		(property "Reference" "D7"
+			(at 213.36 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6d25386-b698-406a-8c93-1baf0efdad3b")
+		)
+		(pin "2"
+			(uuid "387409d5-1cef-4e67-8b3c-1fc1e1920bd9")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "259dde67-8039-4e0d-ac39-67c0d2a16acc")
+		(property "Reference" "R4"
+			(at 200.66 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d19c06-cb54-4028-addd-16b26618945e")
+		)
+		(pin "2"
+			(uuid "b082a6f6-9da9-4c0d-8dd4-1f8f55ca2f90")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae50784-90c2-4f06-831d-34fbbc8542fb")
+		(property "Reference" "#PWR06"
+			(at 151.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0dd6e2b-695d-49c9-bda5-b7a7164050c6")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b320300-76e7-405a-b58f-ac4e24f6f0a9")
+		(property "Reference" "D8"
+			(at 213.36 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ea5ed4-def9-4a20-88a0-2cac8c550b67")
+		)
+		(pin "2"
+			(uuid "34d4d0ea-9dbd-430d-997e-3873c9e7b996")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48de2dbd-013a-4043-b304-5a42a4b2675d")
+		(property "Reference" "D4"
+			(at 213.36 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae6ad344-6f22-4112-96d0-42268ffe1300")
+		)
+		(pin "2"
+			(uuid "6097467e-daa4-46df-af02-02f7c07e2728")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4434,6 +6248,236 @@
 			(project "SRAM_Programming"
 				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5084d7b2-4f8d-4c76-a3d8-e70bff35b33f")
+		(property "Reference" "D1"
+			(at 214.9475 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 214.9475 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e8a1b5-2b53-4b54-a5f9-e4d525209738")
+		)
+		(pin "2"
+			(uuid "49f72dec-1cda-4f78-9405-7fdb8f826c73")
+		)
+		(instances
+			(project ""
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c2f69f-175d-4084-8792-aff3b79620da")
+		(property "Reference" "R1"
+			(at 200.66 15.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 23.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc1755ec-3483-41cd-b556-622e120ca456")
+		)
+		(pin "2"
+			(uuid "e5c1779f-1cec-4cd3-959b-04721865c829")
+		)
+		(instances
+			(project ""
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6514318a-f8dc-4250-8fde-5d68d8dc0e1e")
+		(property "Reference" "D5"
+			(at 213.36 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1a16bca-beca-4303-8ab8-05bfb66d0d6f")
+		)
+		(pin "2"
+			(uuid "2c1d0ba8-ba0c-4306-9747-16d7b21b1fc5")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4506,6 +6550,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 200.66 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9cd217-6926-4f65-881b-ed44e4ccbe71")
+		(property "Reference" "R7"
+			(at 200.66 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf18528d-08fc-4e76-bd05-cd23fcbe9c70")
+		)
+		(pin "2"
+			(uuid "468288f2-8170-4dee-9085-8a4315e79321")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93755e1a-23da-43cb-b820-c32e2f0ffa92")
+		(property "Reference" "R8"
+			(at 200.66 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f8c815-a8da-4aad-9af8-cf3b3d3eae4e")
+		)
+		(pin "2"
+			(uuid "f480ad0c-4373-4b2e-89bb-4f3c145aa6a0")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 163.83 26.67 0)
 		(unit 1)
@@ -4566,6 +6764,82 @@
 			(project ""
 				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9eac3406-20e9-495a-913f-8aac01078ca4")
+		(property "Reference" "D3"
+			(at 213.36 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "093d01a9-9f33-4cb7-93fb-38ab1315f92f")
+		)
+		(pin "2"
+			(uuid "ca5ae8fa-8b88-4ff0-9fa3-d85e86c3f1a2")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4907,8 +7181,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd9a71c6-a5d3-4f62-a9b6-947775eb714d")
+		(property "Reference" "D6"
+			(at 213.36 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c19d899-93be-4f9a-b8c9-b93aa2f2fc6e")
+		)
+		(pin "2"
+			(uuid "1bedd16b-b84a-4a0b-bd7f-8ee156972650")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "becdba7b-6cd5-4b1a-b80d-d98e2e7d4230")
+		(property "Reference" "R5"
+			(at 200.66 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44c90488-2ff6-43f3-bf1f-a85103c9243b")
+		)
+		(pin "2"
+			(uuid "b24bb901-b7ca-4994-8e07-3d99d772ede8")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DIP_x08")
-		(at 157.48 123.19 0)
+		(at 157.48 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4917,7 +7344,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5ffd89c-4959-4203-a5f7-9a067656968d")
 		(property "Reference" "SW1"
-			(at 157.48 105.41 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,15 +7352,15 @@
 			)
 		)
 		(property "Value" "SW_DIP_x08"
-			(at 157.48 107.95 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.48 123.19 0)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile"
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,8 +7368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 157.48 123.19 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/cts-electrocomponents/208-8/20795"
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +7378,16 @@
 			)
 		)
 		(property "Description" "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 157.48 123.19 0)
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "208-8"
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,6 +7601,159 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 200.66 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8f53e27-16a9-41fc-b1a7-e83da1a73e43")
+		(property "Reference" "R6"
+			(at 200.66 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd42d3e4-f30e-4f2f-9a9b-4ce717dd8651")
+		)
+		(pin "2"
+			(uuid "ded02c46-ca89-449b-b382-9c06d1870a71")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc9d1cf0-af9d-403d-bad6-aab7248909ff")
+		(property "Reference" "D2"
+			(at 213.36 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/broadcom-limited/HLMP-D150/637587"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "HLMP-D150"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0d2743a-2412-4bb3-9133-11d981c7e242")
+		)
+		(pin "2"
+			(uuid "220ac62f-88d0-4a7c-8114-27199e0899c6")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 48.26 127 0)
 		(unit 1)
@@ -5225,6 +7814,226 @@
 			(project "SRAM_Programming"
 				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e439cc47-04bd-47a7-8543-11efdbf6770c")
+		(property "Reference" "#PWR05"
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea4c4651-75c3-4905-926f-3d15261e7d3d")
+		)
+		(instances
+			(project ""
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f03a56d5-b86a-494b-a35c-8c196a7a3698")
+		(property "Reference" "R3"
+			(at 200.66 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a587edb0-8150-4aa6-b5f2-649861b65e79")
+		)
+		(pin "2"
+			(uuid "4987d687-f16f-4f4b-b184-7286dd2675db")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc49dddb-648a-4e0c-a505-c044236b92a9")
+		(property "Reference" "R2"
+			(at 200.66 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 200.66 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CF14JT3K30/1741376"
+			(at 200.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfG #" "CF14JT3K30"
+			(at 200.66 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6bfc84-b81e-448d-b566-2cf81e280e20")
+		)
+		(pin "2"
+			(uuid "9a2d19c1-e74b-47d3-a8cf-d6d52f20f936")
+		)
+		(instances
+			(project "SRAM_Programming"
+				(path "/eb0e76fa-f2dc-4532-aec1-83c7ed669823"
+					(reference "R2")
 					(unit 1)
 				)
 			)
